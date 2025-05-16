@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "How are you?", "Howdy", "Greetings", "Yo"],
+      "responses": ["Hello! How can I assist you today?", "Hey there!", "Hi! Ask me anything.", "Greetings! I'm Jarvis.", "Hi! I'm your AI buddy."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Talk to you soon", "I’m leaving", "Quit", "Exit", "Peace out", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!", "Take care!", "Farewell!", "Catch you later!"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Who are you?", "What is your name?", "Introduce yourself", "Tell me about yourself", "Your identity?", "Who made you?", "What can you do?", "What are you?", "Are you a robot?", "Are you human?"],
+      "responses": ["I'm Jarvis, your AI chatbot built with Python.", "I’m Jarvis, created by Aditya Chouhan using Streamlit.", "I am your assistant, here to help you with anything.", "I'm Jarvis! I answer your questions.", "I was made to be your smart buddy!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "Is it raining?", "Is it sunny?", "Is it cold today?", "Is it hot outside?", "Will it rain today?", "What is the temperature?", "Should I carry an umbrella?", "Is it cloudy?"],
+      "responses": ["I don't have live weather data, but you can check Google Weather!", "It depends on your location — check a weather site for accurate info.", "Not sure, but it's always smart to be prepared!", "Check your phone or a weather app for the latest update.", "You can ask me general things, but for weather — apps are best!"]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is Python?", "Tell me about programming", "How to start coding?", "What is a variable?", "What are data types?", "Explain loops", "What is a function?", "Tell me about arrays", "What is an IDE?", "Difference between list and tuple?"],
+      "responses": ["Python is a powerful language used in AI and data science.", "Programming is writing instructions for computers.", "Start coding by learning Python — it's beginner-friendly.", "A variable stores data in programming.", "Lists are mutable, tuples are not.", "Loops let you repeat actions.", "Functions are reusable code blocks.", "Use IDEs like VS Code or PyCharm to code.", "Arrays store multiple items in one place.", "Practice daily to improve your coding skills!"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Who is the best cricketer?", "Who is the best footballer?", "Tell me about Messi", "Tell me about Ronaldo", "Top Indian cricketer?", "What is the IPL?", "What is FIFA?", "What is the World Cup?", "Who won the last T20?", "Famous athlete?"],
+      "responses": ["Virat Kohli is a top cricketer.", "Messi and Ronaldo are legendary footballers.", "IPL is India’s Premier League in cricket.", "FIFA organizes international football.", "The World Cup is held every 4 years.", "Check sports apps for latest winners.", "Neeraj Chopra is an Indian Olympic gold medalist.", "Cricket and football are the most followed sports.", "India excels in cricket.", "Want sports stats? Try ESPN or Cricbuzz!"]
+    },
+    {
+      "tag": "conversation",
+      "patterns": ["How are you?", "What’s up?", "Are you there?", "Tell me a joke", "How old are you?", "Where are you from?", "Do you sleep?", "Do you eat?", "Are you happy?", "Do you have a friend?"],
+      "responses": ["I'm just code, but I'm doing great!", "All systems go! How can I help?", "Yes, I'm always here for you.", "Why did the computer go to therapy? Too many bugs.", "I don’t age. I evolve!", "I'm from the world of Python!", "I don’t sleep, I'm 24/7 for you.", "I live on electricity, not food.", "I'm always happy to help!", "You're my favorite friend!"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Say something positive", "Inspire me", "I’m feeling low", "Need motivation", "Quote please", "Encourage me", "Any motivational words?", "Positive quote", "Push me up"],
+      "responses": ["Believe in yourself!", "You're stronger than you think.", "Don't give up now — the best is yet to come.", "Every day is a new opportunity.", "Success is the sum of small efforts.", "Failing means you're trying.", "Dream it. Do it.", "Keep moving forward.", "Progress over perfection.", "You’ve got this!"]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What is AI?", "What is ML?", "What is deep learning?", "Tell me about ChatGPT", "What is Streamlit?", "What is data science?", "Best tech language?", "What is cloud computing?", "What is GitHub?", "What is HTML?"],
+      "responses": ["AI means machines acting smart like humans.", "ML is part of AI that learns from data.", "Deep learning is advanced machine learning.", "ChatGPT is a powerful language model by OpenAI.", "Streamlit helps you build data web apps easily.", "Data science finds insights in data.", "Python and JavaScript are top languages.", "Cloud computing stores your stuff online.", "GitHub is used to manage and share code.", "HTML is used to build web pages."]
+    }
+  ]
+}
